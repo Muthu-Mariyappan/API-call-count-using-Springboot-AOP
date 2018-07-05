@@ -22,7 +22,7 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class APICountAspect {
-	private final String API_COUNT_LOG_PATH = "L:\\spring-tool-suite-3.9.4.RELEASE-e4.7.3a-win32\\projs\\apicount\\src\\main\\java\\apicountlog";
+	private final String API_COUNT_LOG_PATH = "absolute path of log file";
 	private HashMap<String,Integer> registry = new HashMap<>(); // To store the method signature and its execution count
 	
 	APICountAspect(){ // constructor which prepares the hashmap with the stored log data
