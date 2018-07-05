@@ -1,0 +1,4 @@
+String com.gmm.base.rest.APICountController.add(int,int) 2
+String com.gmm.base.rest.APICountController.divide(int,int) 1
+String com.gmm.base.rest.APICountController.subtract(int,int) 1
+String com.gmm.base.rest.APICountController.multiply(int,int) 1
